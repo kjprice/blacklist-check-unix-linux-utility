@@ -25,6 +25,9 @@ Blacklists grabbed from http://multirbl.valli.org/ (all DNSBLs).
     
     # Pipe with other UNIX utils, eg. grep. Only blacklisted:
     $ bl domain.tld | grep "blacklisted"
+    
+    # Use a domain name via `short`
+    $ ./bl $(dig +short facebook.com)
 
 ###Sample output
 
